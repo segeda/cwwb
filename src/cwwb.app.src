@@ -1,0 +1,13 @@
+{application, cwwb, [
+    {description, "[C]o[w]boy [w]e[b]"},
+    {vsn, "0.1.0"},
+    {modules, []},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib,
+        cowboy
+    ]},
+    {mod, {cwwb_app, []}},
+    {env, []}
+]}.

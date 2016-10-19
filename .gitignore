@@ -1,0 +1,8 @@
+.erlang.mk
+deps
+ebin
+rel
+_rel
+cwwb.d
+relx
+relx.config
